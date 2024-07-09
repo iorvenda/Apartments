@@ -26,22 +26,26 @@
 
 
         }
+        #comments{
+             width: 187px;
+        }
         input{
             margin: 6px;
             border-radius: 6px;
             border: 1px solid gray;
             height: 30px;
-            width: 90%;
+           
             text-align: center;
             font-size: 110%;
         }
+        
         input[type="file"]{
             display: none;
         }
-        #image_label
+        #image_label,label
         {
             background-color: skyblue;
-            width:100px;
+             width: 187px;
             height: 80px;
             padding: 4px;
             border-radius: 4px;
@@ -50,12 +54,30 @@
         }
          #image_label:active{
             transform: scale(0.9);
+
          }
          #states{
+            width: 187px;
+            height: 30px;
+             text-align: center;
+             font-size: 110%;
+         }
+         @media screen and (max-width: 430px) {
+            input{
+            margin: 6px;
+            border-radius: 6px;
+            border: 1px solid gray;
+            height: 30px;
+            width: 90%;
+            text-align: center;
+            font-size: 110%;
+        }
+        #states{
             width: 90%;
             height: 30px;
              text-align: center;
              font-size: 110%;
+         }
          }
 
 	</style>
